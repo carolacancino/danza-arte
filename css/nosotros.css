@@ -1,1 +1,150 @@
-/* Inserta tu codigo aqui */
+
+header li {
+	list-style: none;
+	display: inline-block;
+	padding-right: 30px;
+	padding-left: 30px;
+	font-size: 15px;
+	color: #030D1C;
+}
+header ul {
+	padding: 0px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+header h1 {
+	text-align: center;
+}
+.banner {
+	width: 100%;
+	background-image: url(../img/dance_7.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 500px;
+}
+.transparente {
+	margin-top: 10%;
+	background-color: black;
+	opacity: 0.5;
+	height: 270px;
+}
+.about {
+	position: absolute;
+	top: 25%;
+	left: 10%;
+	right: 10%;
+	text-align: center;
+}
+.about h1 {
+	color: white;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+.about p {
+	font-size: 20px;
+	color: white;
+	padding-top: 10px;
+	text-overflow: hidden;
+}
+.pilar{
+	background-image: url(../img/cubes.png);
+	height: 370px;
+	color: gray;
+	text-align: center;
+}
+.title-pilar {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	width: 80%;
+	border-bottom: 1px solid  black;
+}
+.pilar-lorem {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	width: 80%;
+	font-size: 16px;
+}
+.instructores h1 {
+	padding-top: 30px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.instructor1 {
+	height: 300px;
+	overflow: hidden;
+
+}
+.instructores img {
+	width: 100%;
+}
+.instructores h2 p {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.instructor {
+	padding-bottom: 70px;
+	padding-top: 40px;
+}
+.frase h1{
+ 	font-style: italic;
+ 	font-size: 30px;
+ 	text-align: center;
+ 	padding-top:50px;
+ 	padding-bottom: 80px;
+ 	padding-top:400px;
+}
+.banner2 {
+	background-image: url(../img/textura_2.jpg);
+	text-align: center;
+	height: 200px;
+}
+.contacto {
+	background-image: url(../img/shoes_!.jpg);
+	background-position: right;
+	background-repeat: no-repeat;
+	height: 600px;
+	margin-left: 40px;
+}
+.contacto h1 {
+	margin-top: 30px;
+	margin-bottom: 20px;
+	color: #030D1C;
+}
+.input-contact {
+	width: 100%;
+	height: 50px;
+	margin-bottom: 20px;
+	border: 1px solid gray;
+	padding: 5px;
+	padding-left: 45px;
+}
+.input-mensaje {
+	width: 100%;
+	height: 150px;
+	margin-bottom: 20px;
+	border: 1px solid gray;
+	padding: 5px;
+	padding-left: 45px;
+	padding-top: 5px;
+
+}
+.enviar {
+	background-color: #030D1C;
+	display: block;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 25px;
+	color: white;
+	text-transform: uppercase;
+	text-transform: uppercase;
+	border-radius: 10px 10px;
+}
+footer{
+	background-color: #030D1C;
+	height: 60px;
+	color:white;
+	padding-top:20px;
+}
